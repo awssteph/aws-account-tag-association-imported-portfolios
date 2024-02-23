@@ -2,7 +2,6 @@
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: MIT-0
 
-
 #This Lambda Function synchronizes Service Catalog Tag Option with the Account level Tags retrieved from AWS Organization.
 #It creates tagOptions based on the account level tags and associates them with the portfolios in Service Catalog
 #As this lambda has multiple API calls, it is advised to set execution time to >3 minutes.
